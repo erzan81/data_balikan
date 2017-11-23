@@ -27,8 +27,37 @@
                                     <div class="form-group" id="instansi_form">
                                         <label>Instansi</label>
                                         <select class="form-control select" data-live-search="true" id="cmb_instansi" name="cmb_instansi" width="100%">
-                                            
+                                          <option>TELKOMSEL</option>>  
                                         </select>
+                                    </div>
+
+                                    <div class="form-group" id="init_kolom">
+                                        <label>Keterangan Kolom</label>
+                                        <table width="100%" class="table table-striped table-bordered table-hover" id="table_kolom">
+                                            <thead>
+                                                <tr>
+                                                    <th>NO</th>
+                                                    <th>NAMA KOLOM</th>
+                                                    <th>TIPE KOLOM</th>
+                                                    <th>SIZE KOLOM</th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>NO_HP</td>
+                                                    <td>VARCHAR</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>JENIS_LAYANAN</td>
+                                                    <td>VARCHAR</td>
+                                                    <td>50</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
 
                                     <div class="form-group" id="keterangan_form">
@@ -68,50 +97,8 @@
                                     </div>
 
 
-                                    <div class="form-group" style="display:none" id="upload_id_combo">
 
-                                        <label>Get Kolom</label>
-                                        <table width="100%" class="table table-striped table-bordered table-hover" id="table_temp_upload" >
-                                            <thead>
-                                                <tr>
-                                                    <th class="text-center" width="5%">#</th>
-                                                    <th class="text-center" width="20%">NAMA INSTANSI</th>
-                                                    <th class="text-center" width="12%">ID INSTANSI</th>
-                                                    <th class="text-center" width="20%">ID UPLOAD</th>
-                                                    <th class="text-center" width="35%">KEGIATAN</th>
-                                                    <th class="text-center" width="8%">PILIH</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-
-                                            </tbody>
-                                        </table>
-
-                                    </div>
-
-
-
-                                    <div class="form-group" id="init_kolom">
-                                        <label>Inisialisasi Kolom</label>
-                                        <table width="100%" class="table table-striped table-bordered table-hover" id="table_kolom">
-                                            <thead>
-                                                <tr>
-                                                    <th style="display: none">NO KOLOM</th>
-                                                    <th>NAMA KOLOM</th>
-                                                    <th>TIPE KOLOM</th>
-                                                    <th>SIZE KOLOM</th>
-                                                    <th width="10%" class="text-center">PILIH</th>
-                                                    <th width="10%" class="text-center">PRIMARY KEY</th>
-                                                    <th width="10%" class="text-center">IS SCORE</th>
-                                                    <th width="10%" class="text-center">IS SELECT</th>
-                                                    <th width="10%" class="text-center">IS CLEANSING</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                
-                                        </tbody>
-                                    </table>
-                                </div>
+                                    
 
 
                         <!-- <a class="btn btn-info" onclick="get_kolom_check()"><i class="fa fa-check" ></i> Cek</a> -->

@@ -17,7 +17,7 @@
     <link href="<?php echo base_url()?>/assets/material/css/demo.css" rel="stylesheet" />
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300|Material+Icons' rel='stylesheet' type='text/css'> -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 
@@ -59,14 +59,14 @@
                 <ul class="nav">
                     <li>
                         <a href="<?php echo base_url('home');?>">
-                            <i class="material-icons">dvr</i>
+                            <!-- <i class="fa fa-search"></i> -->
                             <p>Dashboard</p>
                         </a>
                     </li>
 
                     <li>
                         <a href="<?php echo base_url('upload');?>">
-                            <i class="material-icons">attach_file</i>
+                            <!-- <i class="material-icons">attach_file</i> -->
                             
                             <p>Upload From Excel</p>
                         </a>
@@ -74,28 +74,35 @@
 
                     <li>
                         <a href="<?php echo base_url('upload_dmp');?>">
-                            <i class="material-icons">cloud_upload</i>
+                            <!-- <i class="material-icons">cloud_upload</i> -->
                             <p>Upload From DMP</p>
                         </a>
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <a href="<?php echo base_url('verifikasi');?>">
                             <i class="material-icons">verified_user</i>
                             <p>Verifikasi Dan Cleansing</p>
                         </a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a href="<?php echo base_url('detail');?>">
-                            <i class="material-icons">assignment</i>
-                            <p>Detail Penduduk</p>
+                            <!-- <i class="material-icons">assignment</i> -->
+                            <p>Data Individu</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="<?php echo base_url('instansi');?>">
+                            <!-- <i class="material-icons">assignment</i> -->
+                            <p>Master Instansi</p>
                         </a>
                     </li>
 
                     <li>
                         <a href="#">
-                            <i class="material-icons">power_settings_new</i>
+                            <!-- <i class="material-icons">power_settings_new</i> -->
                             <p>LOGOUT</p>
                         </a>
                     </li>
@@ -120,7 +127,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li>
                                 <a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="material-icons">power_settings_new</i>
+                                    <!-- <i class="material-icons">power_settings_new</i> -->
                                     Log Out
                                 </a>
                             </li>
